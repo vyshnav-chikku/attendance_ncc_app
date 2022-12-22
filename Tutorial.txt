@@ -1,0 +1,61 @@
+userschema:
+    notifications :
+    puch_in:
+        time:
+        date:
+        location:
+        day:
+
+    punch_out:
+        time:
+        date:
+        location:
+        day:
+   
+    notifications_admin:
+        type:common 0, leave 1, tutorial 2,
+    
+    leave_details:
+        approve:
+            0 pending
+            1 approved
+            2 rejected
+        id:
+            for finding which is the leave he applied 
+            it is a random id
+       
+
+
+
+        
+notifications_admin have two details
+    user id and the leave id
+
+
+user puchin -> store the details-> 
+    create attendance_ncc_schema and store each students attendance details
+
+
+leave apply should be in attendace and admin notifications
+    admin aprove each leave 
+
+    schema :
+        subject:
+        days requested:
+        reason:
+
+
+
+user apply leave -> store the leave details and give a random leave id->
+    ->notifications_admin,user id and leave id
+
+push notifications
+
+
+
+
+task 
+    puch_in,punch_out  done
+    leave apply done
+    leave approve done
+    

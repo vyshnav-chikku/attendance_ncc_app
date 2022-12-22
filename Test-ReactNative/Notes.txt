@@ -1,0 +1,27 @@
+code shortcuts
+    imr imrn
+    rnstyle
+    rnf rafce
+    rnfe    //react native with export at bottom and arrow fn
+    rnfes   //react native with style sheet also
+    
+
+style shortcuts
+    align items :stretch 
+    text inside {view} tag will support style in ios , ios didnt support all of text styles
+    scrollview also inside view 
+    scroll view and flatlist read when notificaion page comes in ncc
+
+     <Pressable
+        android_ripple={{ color: "red" }}
+        style={({pressed})=>pressed && styles.pressedItem})   //on ios        
+      >
+
+pending
+    setitem(item=>[...item,new item])  //this is used for add items continuosly
+    delete items using setstate fn and spread operator 
+
+navigation:
+    navigation.goBack()
+    navigation.navigate("Login", { name: "Jane" }) //passing props
+    use inline styling
