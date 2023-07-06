@@ -1,0 +1,44 @@
+userschema:
+    notifications_admin:
+        type:common 0, leave 1, complaints 2, 
+    
+    leave_details:
+        approve:
+            0 pending
+            1 approved
+            2 rejected
+        id:
+            for finding which is the leave he applied 
+            it is a random id
+       
+user puchin -> store the details-> 
+    create attendance_ncc_schema and store each students attendance details
+
+task backend 
+    puch_in,punch_out  done
+    leave apply done
+    leave approve done
+
+pending components and pages 
+    important notificaion
+    profile and signout section
+    students database : admin
+    attendance : user
+
+    select student database :
+        admin can view the details of each student 
+        click -> profile admin want with nav prop{leave_details || puch_in }
+
+once notfication page opens, then the red dot removed
+    set each notificaion has a red dot :true
+    if open , set the value as false
+
+future updates
+    take break
+    chat system
+
+delete authprovider after set state management using react query
+
+
+
+    
